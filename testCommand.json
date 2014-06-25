@@ -1,0 +1,28 @@
+{
+  "CommandSet": {
+    "Name": "testCommandSet",
+    "Prompt": "#",
+    "Title": "GoLang Command Set",
+    "ErrorString": "% Invalid or incomplete command",
+    "Command": [
+      {
+        "Text": "no",
+        "Help": "Negate a command or set its defaults"
+      },
+      {
+        "Text": "do",
+        "Help": "Execute a root command"
+      },
+      {
+        "Text": "mp-sender-id",
+        "Help": "Configure MP Sender ID"
+      },
+      {
+        "Text": "mp-sender-id none",
+        "UserFunction": "cliConfigEcfmCompSenderID",
+        "UserName": "none",
+        "Help": "Do not tranmit a sender-ID TLV"
+      }
+    ]
+  }
+}
